@@ -26,3 +26,17 @@ for (i = 0; i <= 9; i++) {
 // L’utente inserisce due parole in successione, con due prompt.
 // Il software stampa prima la parola più corta, poi la parola più lunga.
 
+//1. creo due variabili vuote
+//2. chiedo due parole all'utente con prompt
+//3. verifico se parola1 è più lunga di parola2
+//4. stampo la parola più lunga
+
+
+let parola1 = prompt("Dimmi la prima parola")
+let parola2 = prompt("Dimmi la seconda parola")
+
+if (parola1.length > parola2.length) {
+    console.log(parola1)
+} else if (parola1.length < parola2.length) {
+    console.log(parola2)
+}
