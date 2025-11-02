@@ -13,5 +13,10 @@
 
 
 const mail = ["silvanamail", "harrymail", "tommasomail", "caterinamail"];
+let message = "";
+prompt("Scrivi la tua mail")
 
-console.log(mail)
+if (prompt === mail) {
+}
+
+console.log("Mail valida")
