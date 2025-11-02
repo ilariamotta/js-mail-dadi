@@ -31,3 +31,24 @@ console.log("Mail valida")
 //3. confronto i due numeri
     // SE numero giocatore è più alto di computer ALLORA ha vinto giocatore, stampo messaggio vittoria
     // ALTRIMENTI numero giocatore è più basso di computer ALLORA ha vinto computer, stampo messaggio
+
+
+let umano = "";
+let computer = "";
+let vince = "";
+
+umano = Math.floor(Math.random() * 100) + 1;
+
+computer = Math.floor(Math.random() * 100) + 1;
+
+
+if (umano > computer) {
+vince = "Umano ha vinto"
+
+} else if (umano < computer) {
+vince = "Computer ha vinto"
+
+}
+
+console.log(vince)
+
