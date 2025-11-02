@@ -40,3 +40,23 @@ if (parola1.length > parola2.length) {
 } else if (parola1.length < parola2.length) {
     console.log(parola2)
 }
+
+
+/*Snack 3*/
+//Crea una variabile con un numero di 4 cifre e calcola la somma di tutte le cifre che compongono il numero.
+
+//1. creo una variabile con 4 cifre e creo una variabile somma
+//2. prendo ogni numero e lo sommo al successivo
+
+let numeri = "1234";
+somma = 0;
+
+for (i = 0; i < numeri.length; i++) {
+    somma = somma + Number(numeri[i]) ;
+}
+
+console.log(somma);
+
+
+
+
